@@ -11,6 +11,7 @@
             color: white;
             padding: 8px; 
             margin: auto;
+            text-align: center
 }
 footer {
     margin: auto;
@@ -18,12 +19,22 @@ footer {
 	font-size: 20px;
     background:black; 
     color: white;
+    text-align: center
 }
 p {
 	font-size: 18px;
 }
 .im {
     text-align: center;
+}
+.border {
+    border: dotted;
+}
+.cent {
+    width: 760px;
+    margin: auto;
+    text-align: left; 
+    font-size: 18px;
 }
        
     </style>
@@ -32,12 +43,13 @@ p {
 <header>
     <h1>My simple website</h1> <br>
     <p class="im"><img src="https://i.ibb.co/YPRWcnc/sunset.jpg" alt="Картинка центр"></p> <br>
-    <p>не важно какой текст 18px </p> <br>
-    <p class="im"><img src="https://i.ibb.co/mcnSZRM/car01.jpg" alt="car01">
-    <img src="https://i.ibb.co/W2FkbRF/car02.jpg" alt="car02">
-    <img src="https://i.ibb.co/g4CzY4C/car03.jpg" alt="car03">
-    <img src="https://i.ibb.co/t2z8xCJ/car04.jpg" alt="car04">
-    <img src="https://i.ibb.co/tL8gSDy/car05.jpg" alt="car05"></p> <br>
+    <p class="cent">не важно какой текст 18px </p> <br>
+    <p class="im"><img class="border" src="https://i.ibb.co/mcnSZRM/car01.jpg" alt="car01">
+    <img class="border" src="https://i.ibb.co/W2FkbRF/car02.jpg" alt="car02">
+    <img class="border" src="https://i.ibb.co/g4CzY4C/car03.jpg" alt="car03">
+    <img class="border" src="https://i.ibb.co/t2z8xCJ/car04.jpg" alt="car04">
+    <img class="border" src="https://i.ibb.co/tL8gSDy/car05.jpg" alt="car05"></p> <br>
+    <p class="cent">не важно какой текст 18px </p> <br>
     <footer>не важно какой текст 20px</footer>
 </header>
       
