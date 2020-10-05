@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+body, input, button, textarea {
+  font-family: 'Open Sans', sans-serif;
+
+}
 .footer {
   background-color: #121116;
   padding: 120px 32px 38px;
@@ -18,13 +22,7 @@
 }
 
 .title {
-  width: 158px;
-  height: 14px;
   color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 21px;
 }
