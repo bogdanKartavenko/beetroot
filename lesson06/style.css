@@ -2,14 +2,55 @@
   --BLUE: #1275b9;
   --WHITE: #ffffff;
   --BLECK: #000000;
+  --BLUEN: #2a69a6;
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-.back__g {
+.conteiner {
+  height: 289px;
+  padding: 56px 345px;
+}
+.icons {
+  width: 65px;
+  height: 63px;
+  border: 1px solid var(--BLUEN);
+  background-color: var(--BLUEN);
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.icons:hover {
+  background-color: var(--WHITE);
+  fill: #2a69a6;
+}
+.heading {
+  margin-bottom: 22px;
+}
+.text {
+  margin-bottom: 66px;
+  width: 220px;
 
 
-    
+height: 52px;
+color: #9d9d9d;
+font-family: "Proxima Nova";
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.35px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.list__content {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
