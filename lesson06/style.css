@@ -22,11 +22,45 @@
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  fill: #fff;
 }
 .icons:hover {
   background-color: var(--WHITE);
-  fill: #2a69a6;
 }
+.telefon {
+  margin: auto;
+  width: 22px;
+  height: 30px;
+}
+.telefon:hover {
+  background-color: var(--WHITE);
+  fill: #2a69a6;
+  width: 22px;
+  height: 30px;
+}
+.settings {
+  margin: auto;
+  width: 25px;
+  height: 26px;
+}
+.settings:hover {
+  background-color: var(--WHITE);
+  fill: #2a69a6;
+  width: 25px;
+  height: 26px;
+}
+.Dashboard {
+  margin: auto;
+  width: 28px;
+  height: 23px;
+}
+.Dashboard:hover {
+  background-color: var(--WHITE);
+  fill: #2a69a6;
+  width: 28px;
+  height: 23px;
+}
+
 .heading {
   margin-bottom: 22px;
 }
@@ -34,14 +68,13 @@
   margin-bottom: 66px;
   width: 220px;
 
-
-height: 52px;
-color: #9d9d9d;
-font-family: "Proxima Nova";
-font-size: 14px;
-font-weight: 300;
-line-height: 20px;
-letter-spacing: 0.35px;
+  height: 52px;
+  color: #9d9d9d;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.35px;
 }
 .list {
   list-style: none;
@@ -54,3 +87,4 @@ letter-spacing: 0.35px;
   flex-direction: column;
   align-items: center;
 }
+
