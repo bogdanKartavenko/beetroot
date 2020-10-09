@@ -1,3 +1,5 @@
+@import url('/lesson06/text/stylesheet.css');
+
 :root {
   --BLUE: #1275b9;
   --WHITE: #ffffff;
@@ -8,6 +10,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+body, input, button, textarea {
+  font-family: 'Proxima Nova' sans-serif;
 }
 .conteiner {
   height: 289px;
@@ -26,6 +31,9 @@
 }
 .icons:hover {
   background-color: var(--WHITE);
+}
+.icons:hover  {
+  fill: #2a69a6;
 }
 .telefon {
   margin: auto;
@@ -60,15 +68,16 @@
   width: 28px;
   height: 23px;
 }
-
 .heading {
   margin-bottom: 22px;
+  font-weight: 400;
+
 }
 .text {
   margin-bottom: 66px;
   width: 220px;
-
   height: 52px;
+
   color: #9d9d9d;
   font-family: "Proxima Nova";
   font-size: 14px;
@@ -87,4 +96,3 @@
   flex-direction: column;
   align-items: center;
 }
-
