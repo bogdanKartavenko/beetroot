@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,26 +7,72 @@
 
 body {
     background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 .conteiner {
     background-color: #3b3f45;
 }
 .header {
 background-color: #4a4f56;
-height:  200px;
+height:  150px;
+}
+.header__text {
+    list-style: none;
+    color: #eb7e7f;
+    text-align: center;
+    padding: 30px;
+}
+.text {
+    font-size: 42px;
+}
+.text1 {
+    font-size: 26px;
 }
 .list__style {
-background-color: #88839e;
 list-style: none;
-width:  400px;
-height:  400px;
-margin-left: 200px;
+color: white;
+width:  700px;
+height:  250px;
+margin-left: 400px;
+font-size: 16px;
+margin-top: 40px;
+display: block;
+
 }
+.list__style li {
+padding: 10px
+}
+.list__style li:nth-child(odd) {
+    background:  #88839e;
+}
+.list__style li:nth-child(even) {
+    background:  #7a7593;
+}
+.list__style li:hover {
+background: #625e77;
+border-bottom: 3px solid white;
+border-top: 3px solid white;
+}
+.list__style li:active {
+    background:  #eb7e7f;
+    text-decoration: line-through;
+}
+
 .button__style {
     background-color: #4a4f56;
-    width:  400px;
-    height:  100px;
-    margin-left: 200px;
+    width:  700px;
+    height:  70px;
+    margin-left: 400px;
     margin-top: 50px;
     border:none;
+    font-size: 30px;
+    margin-bottom: 140px;
+    color:  #eb7e7f;
+}
+.button__style:active {
+    background: #3b3f45;
 }
