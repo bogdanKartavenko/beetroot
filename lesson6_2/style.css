@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+.conteiner {
+    background-color: #3b3f45;
+}
+.header {
+background-color: #4a4f56;
+height:  200px;
+}
+.list__style {
+background-color: #88839e;
+list-style: none;
+width:  400px;
+height:  400px;
+margin-left: 200px;
+}
+.button__style {
+    background-color: #4a4f56;
+    width:  400px;
+    height:  100px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border:none;
+}
