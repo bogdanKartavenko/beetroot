@@ -1,78 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: white;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
 }
 .conteiner {
-    background-color: #3b3f45;
+  background-color: #3b3f45;
 }
 .header {
-background-color: #4a4f56;
-height:  150px;
+  background-color: #4a4f56;
+  height: 150px;
 }
 .header__text {
-    list-style: none;
-    color: #eb7e7f;
-    text-align: center;
-    padding: 30px;
+  list-style: none;
+  color: #eb7e7f;
+  text-align: center;
+  padding: 30px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .text {
-    font-size: 42px;
+  font-size: 42px;
 }
 .text1 {
-    font-size: 26px;
+  font-size: 26px;
 }
-.list__style {
-list-style: none;
-color: white;
-width:  700px;
-height:  250px;
-margin-left: 400px;
-font-size: 16px;
-margin-top: 40px;
-display: block;
+.list {
+  list-style: none;
+  color: white;
+  width: 700px;
+  height: 250px;
+  font-size: 16px;
+  margin-top: 40px;
+  display: block;
+}
+.list__item {
+  padding: 10px;
+  width: 700px;
+}
+.list__item:nth-child(odd) {
+  background: #88839e;
+}
+.list__item:nth-child(even) {
+  background: #7a7593;
+}
+.list__item:hover {
+  background: #625e77;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+}
+.list__item:active {
+  background: #eb7e7f;
 
 }
-.list__style li {
-padding: 10px
+.list__imput:checked + span {
+  text-decoration: line-through;  
 }
-.list__style li:nth-child(odd) {
-    background:  #88839e;
+.list__label {
+    width: 700px;
 }
-.list__style li:nth-child(even) {
-    background:  #7a7593;
-}
-.list__style li:hover {
-background: #625e77;
-border-bottom: 3px solid white;
-border-top: 3px solid white;
-}
-.list__style li:active {
-    background:  #eb7e7f;
-    text-decoration: line-through;
+.list__span {
+    width: 100%;
 }
 
 .button__style {
-    background-color: #4a4f56;
-    width:  700px;
-    height:  70px;
-    margin-left: 400px;
-    margin-top: 50px;
-    border:none;
-    font-size: 30px;
-    margin-bottom: 140px;
-    color:  #eb7e7f;
+  background-color: #4a4f56;
+  width: 700px;
+  height: 70px;
+  margin-top: 50px;
+  border: none;
+  font-size: 30px;
+  margin-bottom: 140px;
+  color: #eb7e7f;
 }
 .button__style:active {
-    background: #3b3f45;
+  background: #3b3f45;
 }
