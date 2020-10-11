@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('/fonts/stylesheet.css');
+
+:root {
+    --WHITE: #ffffff;
+    --WHITE1: #fefefe;
+    --BLECK: #000000;
+    --BLECK1: #181818;
+    --GREY: #e8eced;
+    --GREY1:#767676;
+    --GREY2:#edeff2;
+    --GREY3:#8f8f8f;
+    --GREY4:#b4b4b4;
+    --GREY5:#2a2a2a;
+    --GREY6: #464f54;
+    --YELLOW: #fbc02d;
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.header__text {
+font-family: 'Proxima Nova', serif;
+}
+  .header__title {
+    font-family: 'Playfair Display', serif;
+  }
