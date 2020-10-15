@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --WHITE: #ffffff;
+  --DARK: #121116;
+  --MARKED: #00c7fc;
+  --FONT: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--FONT);
+}
+
+.footer {
+  background-color: var(--DARK);
+  padding: 120px 32px 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__icon-wrapper {
+  margin-bottom: 48px;
+}
+
+.footer__title {
+  color: var(--WHITE);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.footer__divider {
+  width: 230px;
+  height: 1px;
+  background-color: var(--WHITE);
+  margin-bottom: 20px;
+}
+
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 86px;
+}
+
+.footer__social-item:not(:last-of-type) {
+  margin-right: 34px;
+}
+
+.footer__annotation {
+  color: var(--WHITE);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footer__annotation--marked {
+  color: var(--MARKED)
+}
