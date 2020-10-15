@@ -1,164 +1,232 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('/lesson07/fonts_proximanova/stylesheet.css');
-@import url('/lesson07/fonts_futuraPT/stylesheet.css');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("/lesson07/fonts_proximanova/stylesheet.css");
+@import url("/lesson07/fonts_futuraPT/stylesheet.css");
 
 :root {
-    --WHITE: #ffffff;
-    --WHITE1: #fefefe;
-    --BLECK: #000000;
-    --BLECK1: #181818;
-    --GREY: #e8eced;
-    --GREY1:#767676;
-    --GREY2:#edeff2;
-    --GREY3:#8f8f8f;
-    --GREY4:#b4b4b4;
-    --GREY5:#2a2a2a;
-    --GREY6: #464f54;
-    --YELLOW: #fbc02d;
-  }
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-.header__text {
-width: 57px;
-height: 10px;
-color: var(--GREY1);
-font-family: 'Proxima Nova', serif;
-font-size: 15px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 109.03px;
-text-align: left;
-text-transform: uppercase;
-font-style: normal;
-letter-spacing: 4.8px;
-line-height: normal;
+  --WHITE: #ffffff;
+  --WHITE1: #fefefe;
+  --BLECK: #000000;
+  --BLECK1: #181818;
+  --GREY: #e8eced;
+  --GREY1: #767676;
+  --GREY2: #edeff2;
+  --GREY3: #8f8f8f;
+  --GREY4: #b4b4b4;
+  --GREY5: #2a2a2a;
+  --GREY6: #464f54;
+  --YELLOW: #fbc02d;
 }
-  .header__title {
-width: 342px;
-height: 40px;
-color: var(--WHITE1);
-font-family: 'Playfair Display', serif;
-font-size: 48px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 94.03px;
-text-align: left;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-  }
-  .main__text--data {
-width: 211px;
-height: 17px;
-color: var(--GREY4);
-font-family: 'Proxima Nova', serif;
-font-size: 20px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-text-transform: uppercase;
-font-style: normal;
-letter-spacing: 6.72px;
-line-height: normal;
-  }
-  .main__title {
-width: 755px;
-height: 54px;
-color: var(--GREY5);
-font-family: 'Futura PT', serif;
-font-size: 78px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 73.52px;
-text-align: left;
-text-transform: uppercase;
-font-style: normal;
-letter-spacing: 5.28px;
-line-height: normal;
-  }
-  .main__text--cursive {
-width: 551px;
-height: 30px;
-color: var(--GREY3);
-font-family: "Georgia - Italic", serif, ;
-font-size: 30px;
-font-style: italic;
-letter-spacing: normal;
-line-height: 62.44px;
-text-align: justifyLeft;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-  }
-  .main__text {
-color: #000000;
-  }
-  .conteiner {
-width: 1200px;
-height: 900px;
-    background-color: var(--GREY6);
-  }
-  .main {
-width: 1060px;
-height: 1195px;
-background-color: var(--WHITE);
-  }
-  .header {
-width: 876px;
-height: 187px;
-background-color: var(--BLECK1);
-  }
-  .list {
-width: 876px;
-height: 76px;
-background-color: var(--YELLOW);
-  }
- .fornat {
-   width: 38px;
-   height: 32px;
- }
- .format_size {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header__text {
+  width: 57px;
+  height: 10px;
+  color: var(--GREY1);
+  font-family: "Proxima Nova", serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 109.03px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 4.8px;
+  line-height: normal;
+}
+.header__input {
+  width: 355px;
+  height: 40px;
+  color: var(--WHITE1);
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 94.03px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.main__text--data {
+  width: 211px;
+  height: 17px;
+  color: var(--GREY4);
+  font-family: "Proxima Nova", serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 6.72px;
+  line-height: normal;
+}
+.main__title {
+  width: 755px;
+  height: 54px;
+  color: var(--GREY5);
+  font-family: "Futura PT", serif;
+  font-size: 78px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 73.52px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 5.28px;
+  line-height: normal;
+}
+.main__text--cursive {
+  width: 551px;
+  height: 30px;
+  color: var(--GREY3);
+  font-family: "Georgia - Italic", serif;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 62px;
+  text-align: justifyLeft;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.main__text {
+  width: 806px;
+  height: 143px;
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40.38px;
+  text-align: justifyLeft;
+  padding-top: 80px;
+  margin-left: 120px;
+  margin-right: 130px;
+}
+body {
+  background-color: var(--GREY6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+.main {
+  width: 1060px;
+  height: 1195px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+  background-color: var(--WHITE);
+  border-left: #8f8f8f;
+  flex-direction: column;
+  margin: 149px;
+}
+.header {
+  width: 876px;
+  height: 187px;
+  background-color: var(--BLECK1);
+  display: flex;
+  margin-top: 47px;
+  margin-left: 383px;
+  position: absolute;
+}
+.header__text {
+  margin-top: 50px;
+  margin-left: 63px;
+  width: 1px;
+}
+.header__input {
+  background-color: var(--BLECK1);
+  border: 0 solid #181818;
+  outline: none;
+  color: var(--WHITE1);
+  margin-top: 80px;
+  margin-left: 1px;
+}
+.list {
+  width: 812px;
+  height: 76px;
+  background-color: var(--YELLOW);
+  list-style-type: none;
+  display: flex;
+  align-content: center;
+  padding: 22px;
+  position: absolute;
+  margin-top: 234px;
+  margin-left: 447px;
+}
+.list__item {
+  margin-right: 30px;
+}
+.main__text--data {
+  padding-top: 202px;
+  margin-left: 125px;
+  width: 300px;
+}
+.main__title {
+  padding-top: 47px;
+  margin-left: 120px;
+  width: 900px;
+}
+.main__text--cursive {
+  padding-top: 80px;
+  margin-left: 120px;
+}
+.fornat {
+  fill: #fddf96;
+  width: 38px;
+  height: 32px;
+}
+.format_size {
+  fill: #fddf96;
   width: 30px;
   height: 23px;
- }
- .scenery {
+}
+.scenery {
+  fill: #fddf96;
   width: 28px;
   height: 27px;
- }
- .bold {
-width: 20px;
-height: 26px;
- }
- .italic {
+}
+.bold {
+  fill: #fefefe;
+  width: 20px;
+  height: 26px;
+}
+.italic {
+  fill: #fddf96;
   width: 19px;
   height: 22px;
- }
- .underline {
+}
+.underline {
+  fill: #fddf96;
   width: 22px;
   height: 27px;
- }
- .align_centr {
+}
+.align_centr {
+  fill: #fddf96;
   width: 28px;
   height: 27px;
- }
- .align_left {
+}
+.align_left {
+  fill: #fddf96;
   width: 28px;
   height: 27px;
- }
- .centr {
+}
+.centr {
+  fill: #fddf96;
   width: 28px;
   height: 27px;
- }
- .align_right {
+}
+.align_right {
+  fill: #fddf96;
   width: 28px;
   height: 27px;
- }
+}
