@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("/lesson07/fonts_proximanova/stylesheet.css");
-@import url("/lesson07/fonts_futuraPT/stylesheet.css");
+@import url("/lesson07/fonts/proximanova/stylesheet.css");
+@import url("/lesson07/fonts/futuraPT/stylesheet.css");
 
 :root {
   --WHITE: #ffffff;
@@ -26,16 +26,11 @@
   height: 10px;
   color: var(--GREY1);
   font-family: "Proxima Nova", serif;
-  font-size: 15px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 109.03px;
-  text-align: left;
-  text-transform: uppercase;
-  font-style: normal;
   letter-spacing: 4.8px;
-  line-height: normal;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: 63px;
+  width: 1px;
 }
 .header__input {
   width: 355px;
@@ -43,14 +38,23 @@
   color: var(--WHITE1);
   font-family: "Playfair Display", serif;
   font-size: 48px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 94.03px;
-  text-align: left;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+}
+.header_line {
+  margin-top: 134px;
+  margin-left: 60px;
+  position: absolute;
+  width: 816px;
+  height: 3px;
+  background-color: var(--WHITE);
+  opacity: 0.1;
+}
+.main_line {
+  margin-left: 67px;
+  position: absolute;
+  border-left: 1px;
+  width: 2px;
+  height: 100%;
+  background-color: var(--GREY);
 }
 .main__text--data {
   width: 211px;
@@ -58,15 +62,10 @@
   color: var(--GREY4);
   font-family: "Proxima Nova", serif;
   font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
-  text-transform: uppercase;
-  font-style: normal;
   letter-spacing: 6.72px;
-  line-height: normal;
+  padding-top: 202px;
+  margin-left: 125px;
+  width: 300px;
 }
 .main__title {
   width: 755px;
@@ -74,15 +73,10 @@
   color: var(--GREY5);
   font-family: "Futura PT", serif;
   font-size: 78px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 73.52px;
-  text-align: left;
-  text-transform: uppercase;
-  font-style: normal;
   letter-spacing: 5.28px;
-  line-height: normal;
+  padding-top: 47px;
+  margin-left: 120px;
+  width: 900px;
 }
 .main__text--cursive {
   width: 551px;
@@ -91,12 +85,17 @@
   font-family: "Georgia - Italic", serif;
   font-size: 30px;
   font-style: italic;
-  letter-spacing: normal;
-  line-height: 62px;
-  text-align: justifyLeft;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+}
+.main__text--top {
+  width: 806px;
+  height: 143px;
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  line-height: 40.38px;
+  padding-top: 80px;
+  margin-left: 120px;
+  margin-right: 130px;
 }
 .main__text {
   width: 806px;
@@ -104,19 +103,23 @@
   color: #000000;
   font-family: Georgia;
   font-size: 27px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
   line-height: 40.38px;
-  text-align: justifyLeft;
-  padding-top: 80px;
+  padding-top: 120px;
   margin-left: 120px;
   margin-right: 130px;
 }
+.main_text--itali {
+  font-style: italic;
+}
+.main__text--cursive {
+  padding-top: 80px;
+  margin-left: 120px;
+}
 body {
   background-color: var(--GREY6);
+}
+.container {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: auto;
 }
@@ -130,11 +133,12 @@ body {
   margin: 149px;
 }
 .header {
+  margin-top: 47px;
   width: 876px;
   height: 187px;
   background-color: var(--BLECK1);
   display: flex;
-  margin-top: 47px;
+
   margin-left: 383px;
   position: absolute;
 }
@@ -164,69 +168,21 @@ body {
   margin-left: 447px;
 }
 .list__item {
-  margin-right: 30px;
+  margin-right: 25px;
 }
-.main__text--data {
-  padding-top: 202px;
-  margin-left: 125px;
-  width: 300px;
+.svg_icon {
+  fill: #fddf96;
+  width: 31px;
+  height: 25px;
 }
-.main__title {
-  padding-top: 47px;
-  margin-left: 120px;
-  width: 900px;
-}
-.main__text--cursive {
-  padding-top: 80px;
-  margin-left: 120px;
-}
-.fornat {
+.svg_icon--format {
   fill: #fddf96;
   width: 38px;
-  height: 32px;
+  height: 31px;
 }
-.format_size {
-  fill: #fddf96;
-  width: 30px;
-  height: 23px;
+.svg_icon:hover {
+ fill: var(--WHITE1);
 }
-.scenery {
-  fill: #fddf96;
-  width: 28px;
-  height: 27px;
-}
-.bold {
-  fill: #fefefe;
-  width: 20px;
-  height: 26px;
-}
-.italic {
-  fill: #fddf96;
-  width: 19px;
-  height: 22px;
-}
-.underline {
-  fill: #fddf96;
-  width: 22px;
-  height: 27px;
-}
-.align_centr {
-  fill: #fddf96;
-  width: 28px;
-  height: 27px;
-}
-.align_left {
-  fill: #fddf96;
-  width: 28px;
-  height: 27px;
-}
-.centr {
-  fill: #fddf96;
-  width: 28px;
-  height: 27px;
-}
-.align_right {
-  fill: #fddf96;
-  width: 28px;
-  height: 27px;
+.svg_icon--format:hover {
+  fill: var(--WHITE1);
 }
