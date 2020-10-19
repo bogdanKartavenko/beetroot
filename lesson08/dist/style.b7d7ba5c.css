@@ -8,12 +8,12 @@
 body {
   background-color: #2b81ac;
   padding: 20px;
+  min-height: 100vh;
 }
 
 .container {
   background-color: #3399cc;
   width: auto;
-  height: 720px;
 }
 
 .list {
