@@ -1,18 +1,20 @@
 {
-  "name": "parcel",
+  "name": "homeworks",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.html --open",
-    "start": "npm run dev",
-    "build": "parcel build ./src/index.html --no-minify --experimental-scope-hoisting --public-url ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdanKartavenko/beetroot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-plugin-clean-dist": "0.0.6",
-    "sass": "^1.27.0"
-  }
+  "bugs": {
+    "url": "https://github.com/bogdanKartavenko/beetroot/issues"
+  },
+  "homepage": "https://github.com/bogdanKartavenko/beetroot#readme"
 }
