@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: $blue ;
-    padding: 20px;
-    min-height: 100vh;
-}
-.container {
     background-color: $lisbon;
-    width: auto;
-    
-    }
+    font-family: Arial, Helvetica, sans-serif;
+    border: 20px solid $blue;
+    padding: 24px;
+}

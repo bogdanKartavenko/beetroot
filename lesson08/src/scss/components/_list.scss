@@ -1,17 +1,15 @@
 .list {
     max-width: 750px;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    
+    
     background-color: $white;
     list-style: none;
     padding: 2px;
+    display: inline-block;
+    text-align: center;
 }
 .list__block {
-    display: inline-block;
-    padding: 30px;
-    margin: 2px;
-    height: 115px;
-    width: 18%;
+    border: 2px solid white;
+    width: 100%;
 }
