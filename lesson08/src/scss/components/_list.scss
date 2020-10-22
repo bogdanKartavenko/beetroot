@@ -1,13 +1,10 @@
 .list {
-    max-width: 750px;
-    height: 500px;
-    
-    
+    width: 985px;
+    height: 620px;
     background-color: $white;
     list-style: none;
     padding: 2px;
     display: inline-block;
-    text-align: center;
 }
 .list__block {
     border: 2px solid white;
