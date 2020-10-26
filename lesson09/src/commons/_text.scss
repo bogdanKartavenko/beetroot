@@ -1,0 +1,29 @@
+.title {
+    width: 127px;
+    height: 70px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Pacifico;
+
+  }
+
+  .list {
+    list-style: none;
+    width: 557px;
+    height: 25px;
+    margin-left: 480px;
+    margin-top: 40px;
+   
+  }
+  .list__text {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 25px;
+    border-top: 3px solid transparent;
+  }
+  .list__text:hover {
+    border-top: 3px solid $orang;
+  }

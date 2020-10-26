@@ -1,0 +1,15 @@
+.header {
+    background: $orang url("https://i.ibb.co/1bxz1Pq/img.jpg");
+    padding: 30px 165px 0px 165px;
+    min-height: 970px;
+  }
+  .container {
+     display: flex;
+     height: 100px;
+  }
+  .about {
+      background-color: $blue;
+      min-height: 700;
+      display: flex;
+      padding: 70px 166px 70px 175px;
+  }
