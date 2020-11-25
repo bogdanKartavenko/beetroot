@@ -1,0 +1,12 @@
+.list {
+    width: 985px;
+    height: 620px;
+    background-color: $white;
+    list-style: none;
+    padding: 2px;
+    display: inline-block;
+}
+.list__block {
+    border: 2px solid white;
+    width: 100%;
+}

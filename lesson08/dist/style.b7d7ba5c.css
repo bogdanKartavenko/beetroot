@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3399cc;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 20px solid #2b81ac;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 985px;
+  margin: 0 auto;
+}
+
+.list {
+  width: 985px;
+  height: 620px;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 2px;
+  display: inline-block;
+}
+
+.list__block {
+  border: 2px solid white;
+  width: 100%;
+}
+
+.text {
+  color: #ffffff;
+  padding-left: 180px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=/style.b7d7ba5c.css.map */
