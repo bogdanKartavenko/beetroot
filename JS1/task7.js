@@ -1,4 +1,4 @@
-let number = +prompt("Введите сумму!");
+const number = +prompt("Введите сумму!");
 
 if (number >= 200 && number <= 300) {
   number -= number * 0.03;

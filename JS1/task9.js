@@ -1,5 +1,5 @@
-let question = +prompt('2+2=? 1.=5 2.=4 3.=6');
-let result = 0;
+const question = +prompt('2+2=? 1.=5 2.=4 3.=6');
+const result = 0;
 if(question === 2) {
     result += 2;
 };

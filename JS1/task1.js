@@ -1,4 +1,4 @@
-let name = prompt('Укажите свой возраст','');
+const name = prompt('Укажите свой возраст','');
 
 if(name <= 2) {
     alert('Ребенок');

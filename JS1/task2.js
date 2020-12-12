@@ -1,4 +1,4 @@
-let number = prompt("Введите число от 0 до 9");
+const number = prompt("Введите число от 0 до 9");
 switch (number) {
   case "0":
     alert(")");

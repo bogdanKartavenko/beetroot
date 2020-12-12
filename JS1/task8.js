@@ -1,7 +1,7 @@
-let circ = +prompt("Укажите длинну окружности");
-let square = +prompt("Укажите периметр квадрата");
-let circResult = circ / 3.14;
-let squareResult = square / 4;
+const circ = +prompt("Укажите длинну окружности");
+const square = +prompt("Укажите периметр квадрата");
+const circResult = circ / 3.14;
+const squareResult = square / 4;
 if (circResult < squareResult) {
     alert("Окружность поместиться в квадрат!");
 } else {
